@@ -11,6 +11,11 @@ const routes = [
     name: 'Home',
     component: loadPage('HomePage')
   },
+  // {
+  //   path: '/',
+  //   name: 'Gift',
+  //   component: loadPage('GiftPage'),
+  // },
   {
     path: '/about',
     name: 'About',
