@@ -1,0 +1,13 @@
+
+  {
+    "name": "vue-gifted",
+    "version": "1.0.0",
+    "scripts": {
+      "build": "npm run setup:server",
+      "setup:app": "npm run setup:server && npm run setup:client",
+      "setup:client": "cd vue-Gifted.client && npm i",
+      "setup:server": "cd vue-Gifted && npm i",
+      "start": "node vue-Gifted/index.js"
+    }
+  }
+  
